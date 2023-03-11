@@ -1,0 +1,19 @@
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 3rem;
+  background-color: rgb(228, 225, 225);
+  font-family: "Rampart One", cursive;
+}
+
+.main__header-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.main__header-left span {
+  font-size: 1.5rem;
+}
